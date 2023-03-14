@@ -32,4 +32,12 @@ Vi skal arbejde med et databaseprogram. Det vi bruger er DB Browser SQlite.
 * Identificer de forskellige Entiteter, Attributter og nøgler. 
 * Er databasen normaliseret?
 
+## SQL kommandoer
+Hvis man arbejder med rigtigt store databaser er det ikke praktisk at bruge regnearksrepresentationen til at hente data ud. Den mest udbredte sprog til at arbejde med databaser er SQL, Structured Query Language. Vi bruger SQL fanen i BD Browser,
+![SQL](filer/SQL.ong)
 
+* Her er et [cheat sheet](https://res.cloudinary.com/dyd911kmh/image/upload/v1675360372/Marketing/Blog/SQL_Basics_For_Data_Science.pdf).
+
+
+## Øvelse
+* Brug cheat sheetet til at undersøge music databasen.
