@@ -39,5 +39,14 @@ Hvis man arbejder med rigtigt store databaser er det ikke praktisk at bruge regn
 * Her er et [cheat sheet](https://res.cloudinary.com/dyd911kmh/image/upload/v1675360372/Marketing/Blog/SQL_Basics_For_Data_Science.pdf).
 
 
-## Øvelse
+### Øvelse
 * Brug cheat sheetet til at undersøge music databasen.
+
+
+## E/R diagram
+Endnu en fin video, nu om E/R diagrammer.
+
+### Øvelse
+* se filemn [Kunsten at lave E/R-diagrammer](https://youtu.be/wIR-SXl86KY).
+* Brug [draw.io](https://app.diagrams.net/) til at lave et E/R diagram over kunde/bil databasen.
+
