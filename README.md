@@ -38,6 +38,8 @@ Hvis man arbejder med rigtigt store databaser er det ikke praktisk at bruge regn
 
 * Her er et [cheat sheet](https://res.cloudinary.com/dyd911kmh/image/upload/v1675360372/Marketing/Blog/SQL_Basics_For_Data_Science.pdf).
 
+Pas på med hvad I beder om!
+![DROP TABLE](https://imgs.xkcd.com/comics/exploits_of_a_mom.png)
 
 ### Øvelse
 * Brug cheat sheetet til at undersøge music databasen.
