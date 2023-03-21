@@ -36,6 +36,27 @@ Vi skal arbejde med et databaseprogram. Det vi bruger er DB Browser SQlite.
 Hvis man arbejder med rigtigt store databaser er det ikke praktisk at bruge regnearksrepresentationen til at hente data ud. Den mest udbredte sprog til at arbejde med databaser er SQL, Structured Query Language. Vi bruger SQL fanen i BD Browser,
 ![SQL](filer/SQL.ong)
 
+### Øvelse
+* Prøv de nedenstående kommandoer
+```
+SELECT * FROM albums
+SELECT count(*) FROM albums
+SELECT * FROM albums WHERE ArtistId = 2   
+```
+* Lav om i sidste linje for at finde ud af hvilken kunstner der har ArtistId=2
+
+INNER JOIN er en måde at sætte tabeller sammen.
+### Øvelse
+* Kør koden og forklar hvad der sker ved INNER JOIN
+```
+SELECT artists.Name, albums.Title
+from artists
+INNER JOIN albums ON artists.ArtistId =albums.AlbumId
+```
+
+
+
+
 * Her er et [cheat sheet](https://res.cloudinary.com/dyd911kmh/image/upload/v1675360372/Marketing/Blog/SQL_Basics_For_Data_Science.pdf).
 
 Pas på med hvad I beder om!
