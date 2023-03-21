@@ -83,10 +83,10 @@ CREATE TABLE "kunder" (
 ```
 INSERT INTO kunder VALUES (1,"Hans","hans@gmail.com","54783219")
 ```
-
+* Join de to tabellers så I kan finde ud af hvilke bilen der hører til hvilke personer.
 
 ## E/R diagram
-Endnu en fin video, nu om E/R diagrammer.
+Endnu en fin video, nu om E/R diagrammer, [E/R diagrammer](https://youtu.be/wIR-SXl86KY).
 
 ### Øvelse
 * se filemn [Kunsten at lave E/R-diagrammer](https://youtu.be/wIR-SXl86KY).
