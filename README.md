@@ -69,7 +69,7 @@ Vi vil lave tabellerne med biler om til en database.
 ### Øvelse
 * Vælg Ny database, giv tabellen et navn, add de forskellige søjler og vælg primærnøgle.
 Den generere selv SQL koden,
-````
+```
 CREATE TABLE "kunder" (
 	"kunde_id"	INTEGER,
 	"navn"	TEXT,
