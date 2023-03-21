@@ -53,6 +53,8 @@ SELECT artists.Name, albums.Title
 from artists
 INNER JOIN albums ON artists.ArtistId =albums.AlbumId
 ```
+* Prøv selv at hive data ud af databasen.
+
 
 
 
@@ -63,7 +65,7 @@ Pas på med hvad I beder om!
 ![DROP TABLE](https://imgs.xkcd.com/comics/exploits_of_a_mom.png)
 
 ### Øvelse
-* Brug cheat sheetet til at undersøge music databasen.
+* Undersøg andre dele af music databasen.
 
 
 ## E/R diagram
