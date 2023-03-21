@@ -51,21 +51,38 @@ INNER JOIN er en måde at sætte tabeller sammen.
 ```
 SELECT artists.Name, albums.Title
 from artists
-INNER JOIN albums ON artists.ArtistId =albums.AlbumId
+INNER JOIN albums ON artists.ArtistId =albums.ArtistId
 ```
-* Prøv selv at hive data ud af databasen.
+Her er et [cheat sheet](https://res.cloudinary.com/dyd911kmh/image/upload/v1675360372/Marketing/Blog/SQL_Basics_For_Data_Science.pdf).
 
-
-
-
-
-* Her er et [cheat sheet](https://res.cloudinary.com/dyd911kmh/image/upload/v1675360372/Marketing/Blog/SQL_Basics_For_Data_Science.pdf).
 
 Pas på med hvad I beder om!
 ![DROP TABLE](https://imgs.xkcd.com/comics/exploits_of_a_mom.png)
 
 ### Øvelse
 * Undersøg andre dele af music databasen.
+
+
+## Egen relationel database
+Vi vil lave tabellerne med biler om til en database.
+
+### Øvelse
+* Vælg Ny database, giv tabellen et navn, add de forskellige søjler og vælg primærnøgle.
+Den generere selv SQL koden,
+````
+CREATE TABLE "kunder" (
+	"kunde_id"	INTEGER,
+	"navn"	TEXT,
+	"email"	TEXT,
+	"tlf"	INTEGER,
+	PRIMARY KEY("kunde_id")
+);
+```
+* Brug koden til at lav en tabel for bilmærker
+* Brug nedenstående kode til at udfylde tabellen
+```
+INSERT INTO kunder VALUES (1,"Hans","hans@gmail.com","54783219")
+```
 
 
 ## E/R diagram
