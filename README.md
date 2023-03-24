@@ -89,6 +89,6 @@ INSERT INTO kunder VALUES (1,"Hans","hans@gmail.com","54783219")
 Endnu en fin video, nu om E/R diagrammer, [E/R diagrammer](https://youtu.be/wIR-SXl86KY).
 
 ### Øvelse
-* se filemn [Kunsten at lave E/R-diagrammer](https://youtu.be/wIR-SXl86KY).
+* se filemn.
 * Brug [draw.io](https://app.diagrams.net/) til at lave et E/R diagram over kunde/bil databasen.
 
