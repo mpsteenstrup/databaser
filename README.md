@@ -19,6 +19,20 @@ I bruger den glimrende introduktion til databaser [LINK](https://sites.google.co
 * Læs introduktionen og se videoen Introduktion til databaser. 
 * Forklar hvad Entiteter, Attributter, primærnøgle og sekundærnøgle er. 
 
+## Normalisering
+Normalisering!
+
+Normaliseringsregler:
+
+* Unik primærnøgle.
+* Ingen kolonne må være afhængig af andre kolonner end primærnøglen.
+* Der må kun være én datatype i hver kolonne.
+* Det samme data skal kun forekomme et sted - det modsatte kaldes redundans.
+* Data skal være relateret til hinanden.
+
+
+
+
 ### Øvelse
 * Se videoen om normalisering af databaser, start 4 minutter inde [Video](https://youtu.be/22bRAGYB6Is?t=238).
 * Normaliser nedenstående database.
@@ -84,6 +98,16 @@ CREATE TABLE "kunder" (
 INSERT INTO kunder VALUES (1,"Hans","hans@gmail.com","54783219")
 ```
 * Join de to tabellers så I kan finde ud af hvilke bilen der hører til hvilke personer.
+
+## Relationstabel
+```
+SELECT kunder.*, biler.*
+from kunder
+INNER JOIN biler ON relation.bilID = biler.bilID
+INNER JOIN relation ON kunder.kundeID = relation.bilID
+```
+
+
 
 ## E/R diagram
 Endnu en fin video, nu om E/R diagrammer, [E/R diagrammer](https://youtu.be/wIR-SXl86KY).
