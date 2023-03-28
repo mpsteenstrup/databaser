@@ -92,3 +92,17 @@ Endnu en fin video, nu om E/R diagrammer, [E/R diagrammer](https://youtu.be/wIR-
 * se filemn.
 * Brug [draw.io](https://app.diagrams.net/) til at lave et E/R diagram over kunde/bil databasen.
 
+### Øvelse - egen database.
+I skal lave jeres egen database. I må selv vælge hvad databasen skal indeholde men her er et par forslag,
+* Spillere, resultater og turneringer i den lokale skakklub.
+* Toppings og isvarianter i den lokale isbar.
+* Kunder og varer i en online shop.
+* Deltagere på musik-festeivaller til sommer.
+
+Som altid er det smart at starte simpelt så,
+* Beskriv kort hvad indeholdet af en simpel version af jeres database er.
+* Skitser den som én tabel i regneark.
+* Normaliser databasen, stadigt i regneark.
+* Lav et E/R diagram og vurder graden af relationerne.
+* Hvis I har en mange til mange relation så lav den simplere.
+* Implementer databasen I DB browser.
