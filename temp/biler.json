@@ -1,0 +1,17 @@
+[
+    {
+        "bilID": 1,
+        "mærke": "Skoda",
+        "type": "Octavia"
+    },
+    {
+        "bilID": 2,
+        "mærke": "Skoda",
+        "type": "Fabia"
+    },
+    {
+        "bilID": 3,
+        "mærke": "Kia",
+        "type": "Ceed"
+    }
+]

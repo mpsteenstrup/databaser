@@ -1,0 +1,18 @@
+[
+    {
+        "bilID": 1,
+        "kundeID": 1
+    },
+    {
+        "bilID": 2,
+        "kundeID": 1
+    },
+    {
+        "bilID": 3,
+        "kundeID": 2
+    },
+    {
+        "bilID": 2,
+        "kundeID": 3
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "email": "hans@gmail.com",
+        "kundeID": 1,
+        "navn": "Hans",
+        "tlf": 54783219
+    },
+    {
+        "email": "lars@gmail.com",
+        "kundeID": 2,
+        "navn": "Lars",
+        "tlf": 11232233
+    },
+    {
+        "email": "petra@gmail.com",
+        "kundeID": 3,
+        "navn": "Petra",
+        "tlf": 98462132
+    }
+]
