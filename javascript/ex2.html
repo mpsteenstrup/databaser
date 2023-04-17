@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
 
 <body>
 <h1>Biler</h1>
@@ -10,14 +9,12 @@
 </body>
 </html>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
 <script>
-
 let data = null;
-
 function vis(x){
-    console.log(data);
-  document.getElementById('biler').innerHTML = data[0]["mærke"] + " "+ data[0]["type"];
   console.log(data);
+  document.getElementById('biler').innerHTML = data[0]["mærke"] + " "+ data[0]["type"];
     }
 
 window.onload = function() {
@@ -25,11 +22,8 @@ var xhr = new XMLHttpRequest();
 xhr.open("GET", "biler.csv", true);
 xhr.responseType = "text";
 xhr.onload = function() {
-  data = Papa.parse(xhr.responseText, {
-    header: true // set this to true if the first row contains the header names
-  }).data;
+  data = Papa.parse(xhr.responseText, { header: true }).data;
 };
 xhr.send();
-
 }
 </script>
