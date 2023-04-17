@@ -7,7 +7,6 @@
 <p id="billedtekst"></p>
 <img id="myImage" src="https://github.com/mpsteenstrup/GCP4/blob/master/FN_maal/samlet.jpg?raw=true" style="width: 50%;">
 <p id="beskrivelse"></p>
-<button type="button" onclick="loadData()">load data</button>
 <button type="button" onclick="ny()">ny</button>
 <button type="button" onclick="valgte()">vælg</button>
 <p id="valg"></p>
@@ -30,7 +29,6 @@ function ny() {
   document.getElementById('billedtekst').innerHTML = overskrift;
   document.getElementById('beskrivelse').innerHTML = beskrivelse;
   document.getElementById('myImage').src = pic;
-  var xhr = new XMLHttpRequest();
 }
 
 function valgte(){

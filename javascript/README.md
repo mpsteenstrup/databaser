@@ -43,5 +43,15 @@ typen er sat med ```type="button"``` og den kalder funktionen ```getDate()``` ve
 JavaScript delen er i ```script``` tags og kan placeres nederst på siden. Funktionen bliver defineret med ```function detDate() { } ``` og har kun én linje kode.
 
 ```document.getElementById('demo').innerHTML = Date();````
-finder det element på siden med ``ìd="dem0"```og sætter det lig ```Date()```som er en indbygget funktion i javaScript til at give tid og dato. 
+finder det element på siden med ``ìd="dem0"```og sætter det lig ```Date()```som er en indbygget funktion i javaScript til at give tid og dato.
+
+### Øvels
+* Kopier koden ind i et Bracket dokument og kør den. Det er også muligt at bruge w3schools online editor,[https://www.w3schools.com/tryit/tryit.asp?filename=tryhtml_hello](https://www.w3schools.com/tryit/tryit.asp?filename=tryhtml_hello).
+* Prøv at lav om i koden så den i stedet fortæller en joke når man trykker på knappen, husk at tekst skal i gåseøjne " ".
+
+## Data og hjemmesiden
+Vi skal nu bruge vores nyvundne JS skills til at loade data. Data skal være gemt som csv fil og have overskrift på alle kolonner.
+
+### eksempel 2, load biler databasen
+
 
