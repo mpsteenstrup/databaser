@@ -105,9 +105,7 @@ function genererTekst(x){
         overskrift = data[i]['overskrift']; 
         beskrivelse = data[i]['beskrivelse']
         break; // exit efter loop
-      }
-    }
-}
+      } } }
 ```
 Anden linje ```for (var i = 0; i < data.length; i++)``` giver en løkke hvor ```i=0``` til at starte med, og i vokser med 1 ```ì++``` for hver omgang. Løkken kører så længe ```i < data.length``` altså så lange i er mindre end antallet af rækker i data.
 
