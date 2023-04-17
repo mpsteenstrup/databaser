@@ -1,0 +1,5 @@
+CREATE TABLE kunderBiler as
+SELECT kunder.navn, biler.type, biler.mærke
+from kunder
+INNER JOIN biler ON relation.bilID = biler.bilID
+INNER JOIN relation ON kunder.kundeID = relation.bilID
