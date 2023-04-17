@@ -108,6 +108,7 @@ function genererTekst(x){
       }
     }
 }
+```
 Anden linje ```for (var i = 0; i < data.length; i++)``` giver en løkke hvor ```i=0``` til at starte med, og i vokser med 1 ```ì++``` for hver omgang. Løkken kører så længe ```i < data.length``` altså så lange i er mindre end antallet af rækker i data.
 
 betingelsen ```if (data[i]["ID"] == x)```bruger primærnøglern ```ÌD``` og spørger om den er lig med ```x```. Hvis den er det så skal overskrift og beskrivelse opdateres og løkken stoppes.
