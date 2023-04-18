@@ -269,3 +269,4 @@ betingelsen ```if (data[i]["ID"] == x)```bruger primærnøglern ```ÌD``` og sp�
 Databasen indeholder også en kolonne ```progression``` hvor det er angivet hvor langt vi som verden var kommet med verdensmålene.
 * Lav om i koden så denne information også bliver vist på siden.
 
+
