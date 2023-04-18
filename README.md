@@ -1,11 +1,23 @@
 # Databaser
+Vi skal arbejde med databaser og implementere dem i en simpel version på en hjemmeside. 
 
 ## Indhold
+* [Projektbeskrivelse](#projektbeskrivelse)
 * [Tre-lags-arkitektur](#tre-lags-arkitektur-kilde-iftek)
 * [Introduktion til databaser med Vestfyn](#introduktion-til-databaser---vestfynedu-style)
 * [DB browser, egen database](#db-browser)
 * [E/R diagrammer](#er-diagram)
 * [Databaser og hjemmesider](#data-og-hjemmesiden)
+
+## Projektbeskrivelse
+Den søde eksamenstid nærmer sig og en måde at øve sig på er med flascards eller quizzer. I skal udvikle en prototype på et quiz eller flascard hjemmeside. I skal udvikle jeres projekt skal I kombinerer databaser med hjemmesideprogrammering.
+
+IT-løsningen skal indeholde
+* En html brugerflade hvor der er overvejt brugervenligheden, se teorien her [interaktionsdesign](https://github.com/mpsteenstrup/InformatikRysensteen/blob/main/dokumenter/Interaktionsdesign.MD).
+* Data skal organiseres i en simpel database, regneark, som kan importeres som csv fil med javascript.
+* Der skal redegøres for hvordan databasen kan normaliserese ved at gøre den til en relatinel database. Redegør herunder for relatinsgraden. Det er ikke nødvendigt at lave selv relationsdatabasen.
+
+
 
 ## Tre-lags-arkitektur, (kilde [iftek](http://iftek.dk/leksikon:tre-lags-arkitektur))
 I en trelagsarkitur indeles et program i tre lag, hvilket er er nyttigt i implementeringen af programmer, da de tre lag så vidt mulig holdes adskilte og dermed er hele programmet lettere at overskue.
@@ -257,11 +269,3 @@ betingelsen ```if (data[i]["ID"] == x)```bruger primærnøglern ```ÌD``` og sp�
 Databasen indeholder også en kolonne ```progression``` hvor det er angivet hvor langt vi som verden var kommet med verdensmålene.
 * Lav om i koden så denne information også bliver vist på siden.
 
-## Projektbeskrivelse
-Den søde eksamenstid nærmer sig og en måde at øve sig på er med flascards eller quizzer. I skal udvikle en prototype på et quiz eller flascard hjemmeside. I skal udvikle jeres projekt skal I kombinerer databaser med hjemmesideprogrammering.
-
-IT-løsningen skal indeholde
-* En html brugerflade hvor der er overvejt brugervenligheden
-
-
-* Målgruppe og Persona, beskrivelse her. [målgruppe og persona](https://github.com/mpsteenstrup/InformatikRysensteen/blob/main/dokumenter/innovation.md#m%C3%A5lgruppe-og-persona)
