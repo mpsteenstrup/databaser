@@ -1,5 +1,12 @@
 # Databaser
 
+## Indhold
+* [Tre-lags-arkitektur](#tre-lags-arkitektur-kilde-iftek)
+* [Introduktion til databaser med Vestfyn](#introduktion-til-databaser---vestfynedu-style)
+* [DB browser, egen database](#db-browser)
+* [E/R diagrammer](#er-diagram)
+* [Javascript](javascript/)
+
 
 ## Tre-lags-arkitektur, (kilde [iftek](http://iftek.dk/leksikon:tre-lags-arkitektur))
 I en trelagsarkitur indeles et program i tre lag, hvilket er er nyttigt i implementeringen af programmer, da de tre lag så vidt mulig holdes adskilte og dermed er hele programmet lettere at overskue.
@@ -12,7 +19,7 @@ I en trelagsarkitur indeles et program i tre lag, hvilket er er nyttigt i implem
 
 Vi vil arbejde med hvordan man organiserer data i databaser.
 
-## Introduktion til databaser - Vestfynedu style.
+## Introduktion til databaser - Vestfynedu style
 I bruger den glimrende introduktion til databaser [LINK](https://sites.google.com/vestfynedu.dk/informatikdbg/konstruktion-af-it-systemer/databaser?authuser=0).
 
 ### Øvelse

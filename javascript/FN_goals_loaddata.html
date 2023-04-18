@@ -6,10 +6,12 @@
 <h1>Vælg tilfældigt FN mål</h1>
 <p id="billedtekst"></p>
 <img id="myImage" src="https://github.com/mpsteenstrup/GCP4/blob/master/FN_maal/samlet.jpg?raw=true" style="width: 50%;">
-<p id="beskrivelse"></p>
+<p id="overskrift"></p>
 <button type="button" onclick="ny()">ny</button>
 <button type="button" onclick="valgte()">vælg</button>
 <p id="valg"></p>
+
+
 </body>
 </html>
 
@@ -26,7 +28,7 @@ function ny() {
   x = Math.floor(Math.random()*4+1);
   genererTekst(x);
   pic = "https://github.com/mpsteenstrup/GCP4/blob/master/FN_maal/FN"+x+".jpg?raw=true"  
-  document.getElementById('billedtekst').innerHTML = overskrift;
+  document.getElementById('overskrift').innerHTML = overskrift;
   document.getElementById('beskrivelse').innerHTML = beskrivelse;
   document.getElementById('myImage').src = pic;
 }
@@ -42,7 +44,7 @@ function genererTekst(x){
   for (var i = 0; i < data.length; i++) {
       if (data[i]["ID"] == x) {
         overskrift = data[i]['overskrift']; 
-        beskrivelse = data[i]['beskrivelse']
+        beskrivelse = data[i]['beskrivelse'];
         break; // exit efter loop
       }
     }
