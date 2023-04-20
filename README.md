@@ -154,7 +154,7 @@ Som altid er det smart at starte simpelt så,
 # Databaser og hjemmesider
 Vi skal bruge vores viden om databaser til at strukturere indholdet i en hjemmeside. Vi skal bruge javaScript til at loade data og for at kunne bruge det. JavaScript er godt hvis man vil lave interaktive hjemmesider.
 
-Her er en hjemmeside hvor informationen om de forskellige FN verdensmål er gemt som en kommasepareret fil, csv. [https://mpsteenstrup.github.io/databaser/javascript/FN_goals_loaddata.html](https://mpsteenstrup.github.io/databaser/javascript/FN_goals_loaddata.html)
+Her er en hjemmeside hvor informationen om de forskellige FN verdensmål er gemt som en kommasepareret fil, csv. [https://mpsteenstrup.github.io/databaser/javascript/FN_goals_loaddata.html](https://mpsteenstrup.github.io/databaser/filer/FN_goals_loaddata.html)
 
 ### Øvelse
 * Hvorfor er det en god ide at adskille indhold fra strukturen og layoutet i en hjemmeside?
@@ -164,7 +164,7 @@ Her er en hjemmeside hvor informationen om de forskellige FN verdensmål er gemt
 Vi bruger w3schools javaScript tutorial til at komme i gang.
 
 ### Eksempel
-Første eksempel er en knap som kan vise tid og dato, [https://mpsteenstrup.github.io/databaser/javascript/ex1.html](https://mpsteenstrup.github.io/databaser/javascript/ex1.html).
+Første eksempel er en knap som kan vise tid og dato, [https://mpsteenstrup.github.io/databaser/javascript/ex1.html](https://mpsteenstrup.github.io/databaser/filer/ex1.html).
 
 Koden ser sådan ud
 
@@ -213,7 +213,7 @@ bilID,type,mærke
 2,Fabia,Skoda
 3,Ceed,Kia
 ```
-Hjemmesiden kan ses her [https://mpsteenstrup.github.io/databaser/javascript/ex2.html](https://mpsteenstrup.github.io/databaser/javascript/ex2.html). Hvis man bruger Google Chrome kan man se javaScript konsollen ved at gå ind under ```Vis->Udvikler->JavaScript-konsol```. So I kan ligger data i et lidt sjovt format kaldet en ```dictionary```
+Hjemmesiden kan ses her [https://mpsteenstrup.github.io/databaser/filer/ex2.html](https://mpsteenstrup.github.io/databaser/javascript/ex2.html). Hvis man bruger Google Chrome kan man se javaScript konsollen ved at gå ind under ```Vis->Udvikler->JavaScript-konsol```. So I kan ligger data i et lidt sjovt format kaldet en ```dictionary```
 ```
 0:{bilID: '1', type: 'Octavia', mærke: 'Skoda'}
 1:{bilID: '2', type: 'Fabia', mærke: 'Skoda'}
@@ -243,7 +243,7 @@ Det er ok at tage denne del som lidt at en black-box, men den sender en html-reg
 * Lav om i filen så noget andet bliver vist.
 
 ## FN og verdensmålene
-Vi vender nu tilbage til Hjemmesiden med FNs verdensmål,[FN_goals_loaddata.html](https://mpsteenstrup.github.io/databaser/javascript/FN_goals_loaddata.html). Filen kan ses her, [FN_goals_loaddata.html koden](https://github.com/mpsteenstrup/databaser/blob/main/javascript/FN_goals_loaddata.html).
+Vi vender nu tilbage til Hjemmesiden med FNs verdensmål,[FN_goals_loaddata.html](https://mpsteenstrup.github.io/databaser/filer/FN_goals_loaddata.html). Filen kan ses her, [FN_goals_loaddata.html koden](https://github.com/mpsteenstrup/databaser/blob/main/filer/FN_goals_loaddata.html).
 
 Koden indeholder fire javaScript funkitoner, ```ny(),valgte(),genererTekst``` og den som loader data. Ideen er at koden vælger en overskrift og en beskrivese der passer til de forskellige verdensmål.
 
