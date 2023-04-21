@@ -8,6 +8,7 @@ Vi skal arbejde med databaser og implementere dem i en simpel version på en hje
 * [DB browser, egen database](#db-browser)
 * [E/R diagrammer](#er-diagram)
 * [Databaser og hjemmesider](#data-og-hjemmesiden)
+* [FN mål](#fn-og-verdensmålene)
 
 ## Projektbeskrivelse
 Den søde eksamenstid nærmer sig og en måde at øve sig på er med flascards eller quizzer. I skal udvikle en prototype på et quiz eller flascard hjemmeside. I skal udvikle jeres projekt skal I kombinerer databaser med hjemmesideprogrammering.
