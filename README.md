@@ -18,8 +18,6 @@ IT-løsningen skal indeholde
 * Data skal organiseres i en simpel database, regneark, som kan importeres som csv fil med javascript.
 * Der skal redegøres for hvordan databasen kan normaliserese ved at gøre den til en relatinel database. Redegør herunder for relatinsgraden. Det er ikke nødvendigt at lave selv relationsdatabasen.
 
-
-
 ## Tre-lags-arkitektur, (kilde [iftek](http://iftek.dk/leksikon:tre-lags-arkitektur))
 I en trelagsarkitur indeles et program i tre lag, hvilket er er nyttigt i implementeringen af programmer, da de tre lag så vidt mulig holdes adskilte og dermed er hele programmet lettere at overskue.
 
