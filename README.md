@@ -47,13 +47,17 @@ Normaliseringsregler:
 * Det samme data skal kun forekomme et sted - det modsatte kaldes redundans.
 * Data skal være relateret til hinanden.
 
-
-
-
 ### Øvelse
 * Se videoen om normalisering af databaser, start 4 minutter inde [Video](https://youtu.be/22bRAGYB6Is?t=238).
 * Normaliser nedenstående database.
 ![ikke_normaliseret](filer/ikke_normaliseret.png)
+
+## E/R diagram
+Endnu en fin video, nu om E/R diagrammer, [E/R diagrammer](https://youtu.be/wIR-SXl86KY).
+
+### Øvelse
+* se filemn.
+* Brug [draw.io](https://app.diagrams.net/) til at lave et E/R diagram over kunde/bil databasen.
 
 ## DB Browser
 Vi skal arbejde med et databaseprogram. Det vi bruger er DB Browser SQlite.
@@ -123,15 +127,6 @@ from kunder
 INNER JOIN biler ON relation.bilID = biler.bilID
 INNER JOIN relation ON kunder.kundeID = relation.bilID
 ```
-
-
-
-## E/R diagram
-Endnu en fin video, nu om E/R diagrammer, [E/R diagrammer](https://youtu.be/wIR-SXl86KY).
-
-### Øvelse
-* se filemn.
-* Brug [draw.io](https://app.diagrams.net/) til at lave et E/R diagram over kunde/bil databasen.
 
 ### Øvelse - egen database.
 I skal lave jeres egen database. I må selv vælge hvad databasen skal indeholde men her er et par forslag,
