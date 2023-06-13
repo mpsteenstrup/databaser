@@ -56,7 +56,7 @@ Normaliseringsregler:
 Endnu en fin video, nu om E/R diagrammer, [E/R diagrammer](https://youtu.be/wIR-SXl86KY).
 
 ### Øvelse
-* se filemn.
+* se filmen.
 * Brug [draw.io](https://app.diagrams.net/) til at lave et E/R diagram over kunde/bil databasen.
 
 ## DB Browser
