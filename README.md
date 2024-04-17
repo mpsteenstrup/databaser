@@ -30,14 +30,14 @@ I en tre-lags-arkitektur indeles et program i tre lag, hvilket er er nyttigt i i
 Vi vil arbejde med hvordan man organiserer data i databaser.
 
 ## Introduktion til databaser - Vestfynedu style
-I bruger den glimrende introduktion til databaser [LINK](https://sites.google.com/vestfynedu.dk/informatikdbg/konstruktion-af-it-systemer/databaser?authuser=0){:target="_blank"}.
+I bruger den glimrende introduktion til databaser [LINK](https://sites.google.com/vestfynedu.dk/informatikdbg/konstruktion-af-it-systemer/databaser?authuser=0).
 
 ### Øvelse
 * Læs introduktionen og se videoen Introduktion til databaser. 
-* Forklar hvad Entiteter, Attributter, primærnøgle og sekundærnøgle er. 
+* Forklar hvad Entiteter, Attributter, primærnøgle og fremmednøgle er. 
 
 ## Normalisering
-Normalisering!
+Normalisering af en database, er en teknik som sikrer at rettelser i databasen, kan foretages med mindst muligt indflydelse på det oprindelige system. Målet er at minimere redundant data. Det vil sige at samme oplysning er gemt flere steder. Med normalisering bliver det lettere at foretage rettelser i databasen (så skal man kun rette det ét sted), [balslev](https://balslev.io/programmering/database/normalisering-af-databaser/).
 
 Normaliseringsregler:
 
