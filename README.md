@@ -11,26 +11,26 @@ Vi skal arbejde med databaser og implementere dem i en simpel version på en hje
 * [FN mål](#fn-og-verdensmålene)
 
 ## Projektbeskrivelse
-Den søde eksamenstid nærmer sig og en måde at øve sig på er med flascards eller quizzer. I skal udvikle en prototype på et quiz eller flascard hjemmeside. I skal udvikle jeres projekt skal I kombinerer databaser med hjemmesideprogrammering.
+Eksamenstiden nærmer sig og en måde at øve sig på er med flascards eller quizzer. I skal udvikle en prototype på et quiz eller flascard hjemmeside. I skal udvikle jeres projekt skal I kombinerer databaser med hjemmesideprogrammering.
 
 IT-løsningen skal indeholde
 * En html brugerflade hvor der er overvejt brugervenligheden, se teorien her [interaktionsdesign](https://github.com/mpsteenstrup/InformatikRysensteen/blob/main/dokumenter/Interaktionsdesign.MD).
 * Data skal organiseres i en simpel database, regneark, som kan importeres som csv fil med javascript.
-* Der skal redegøres for hvordan databasen kan normaliserese ved at gøre den til en relatinel database. Redegør herunder for relatinsgraden. Det er ikke nødvendigt at lave selv relationsdatabasen.
+* Der skal redegøres for hvordan databasen kan normaliserese ved at gøre den til en relationel database. Redegør herunder for relatinsgraden. Det er ikke nødvendigt at lave selv relationsdatabasen.
 
 ## Tre-lags-arkitektur, (kilde [iftek](http://iftek.dk/leksikon:tre-lags-arkitektur))
-I en trelagsarkitur indeles et program i tre lag, hvilket er er nyttigt i implementeringen af programmer, da de tre lag så vidt mulig holdes adskilte og dermed er hele programmet lettere at overskue.
+I en tre-lags-arkitektur indeles et program i tre lag, hvilket er er nyttigt i implementeringen af programmer, da de tre lag så vidt mulig holdes adskilte og dermed er hele programmet lettere at overskue.
 
-**Præsentationslag:** Det øverste lag der håndterer modtagelse og præsentation af data. Dette lag er kendetegnet ved at være ”tæt” på brugeren af programmet.
+**Præsentationslag:** Det øverste lag der håndterer modtagelse og præsentation af data. Dette lag er kendetegnet ved at være ”tæt” på brugeren af programmet. Dette vil ofte være brugergrænsefladen.
 
-**Logiklag:** Det midterste lag der håndterer udvekslingen af data mellem præsentationslaget og datalaget.
+**Logiklag:** Det midterste lag der håndterer udvekslingen af data mellem præsentationslaget og datalaget. Dette lag står for beregningerne.
 
-**Datalag:** Det nederste lag der opbevarer og håndterer data. Dette lag er også kendetegnet ved at være ”tæt” på computeren.
+**Datalag:** Det nederste lag der opbevarer og håndterer data. Dette lag er også kendetegnet ved at være ”tæt” på computeren. Dette lag kan være struktureret som en database.
 
 Vi vil arbejde med hvordan man organiserer data i databaser.
 
 ## Introduktion til databaser - Vestfynedu style
-I bruger den glimrende introduktion til databaser [LINK](https://sites.google.com/vestfynedu.dk/informatikdbg/konstruktion-af-it-systemer/databaser?authuser=0).
+I bruger den glimrende introduktion til databaser [LINK](https://sites.google.com/vestfynedu.dk/informatikdbg/konstruktion-af-it-systemer/databaser?authuser=0){:target="_blank"}.
 
 ### Øvelse
 * Læs introduktionen og se videoen Introduktion til databaser. 
