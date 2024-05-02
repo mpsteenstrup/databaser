@@ -193,7 +193,7 @@ JavaScript delen er i ```script``` tags og kan placeres nederst på siden. Funkt
 finder det element på siden med ``ìd="dem0"```og sætter det lig ```Date()```som er en indbygget funktion i javaScript til at give tid og dato.
 
 ### Øvels
-* Kopier koden ind i et Bracket dokument og kør den. Det er også muligt at bruge w3schools online editor,[https://www.w3schools.com/tryit/tryit.asp?filename=tryhtml_hello](https://www.w3schools.com/tryit/tryit.asp?filename=tryhtml_hello).
+* Kopier koden ind i et VSCode dokument og kør den. Det er også muligt at bruge w3schools online editor,[https://www.w3schools.com/tryit/tryit.asp?filename=tryhtml_hello](https://www.w3schools.com/tryit/tryit.asp?filename=tryhtml_hello).
 * Prøv at lav om i koden så den i stedet fortæller en joke når man trykker på knappen, husk at tekst skal i gåseøjne " ".
 
 ## Data og hjemmesiden
@@ -233,7 +233,7 @@ xhr.send();
 Det er ok at tage denne del som lidt at en black-box, men den sender en html-reguest om at åbne filen "bilse.csv" og gemmer det i variablen ```data```.
 
 ### Øvelse
-* Hent de to filer, ex2.html og biler.csv, fra mappen ```filer``` og prøv at kør programmet i Brackets eller VS Code. Det er ikke muligt bare at klikke på html filen på grund af sikkerhedsbekymringer.
+* Hent de to filer, ex2.html og biler.csv, fra mappen ```filer``` og prøv at kør programmet i VSCode eller VS Code. Det er ikke muligt bare at klikke på html filen på grund af sikkerhedsbekymringer.
 * Lav om i filen så noget andet bliver vist.
 
 ## FN og verdensmålene
