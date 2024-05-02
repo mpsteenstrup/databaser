@@ -200,6 +200,7 @@ finder det element på siden med ``ìd="dem0"```og sætter det lig ```Date()```s
 Vi skal nu bruge vores nyvundne JS skills til at loade data. Data skal være gemt som csv fil og have overskrift på alle kolonner.
 
 ### eksempel 2, load biler databasen
+Eksemplet kan hentes her [https://mpsteenstrup.github.io/databaser/filer/ex2.zip](https://mpsteenstrup.github.io/databaser/filer/ex2.zip)
 Vil loade databasen ```filer/biler.csv```som indeholder
 ```
 bilID,type,mærke
