@@ -5,59 +5,62 @@ Vi skal arbejde med databaser og implementere dem i en simpel version på en hje
 * [Projektbeskrivelse](#projektbeskrivelse)
 * [Tre-lags-arkitektur](#tre-lags-arkitektur-kilde-iftek)
 * [Introduktion til databaser med Vestfyn](#introduktion-til-databaser---vestfynedu-style)
-* [DB browser, egen database](#db-browser)
+* [Normalisering](#normalisering)
 * [E/R diagrammer](#er-diagram)
-* [Databaser og hjemmesider](#data-og-hjemmesiden)
+* [DB browser, egen database](#db-browser)
+* [SQL kommandoer](#sql-kommandoer)
+* [Egen relationel database](#egen-relationel-database)
+* [Relationstabel](#relationstabel)
+* [Databaser og hjemmesider](#databaser-og-hjemmesider)
 * [FN mål](#fn-og-verdensmålene)
 
 ## Projektbeskrivelse
-Eksamenstiden nærmer sig og en måde at øve sig på er med flascards eller quizzer. I skal udvikle en prototype på et quiz eller flascard hjemmeside. I skal udvikle jeres projekt skal I kombinerer databaser med hjemmesideprogrammering.
+Eksamenstiden nærmer sig, og en måde at øve sig på er med flashcards eller quizzer. I skal udvikle en prototype på en quiz- eller flashcard-hjemmeside. Når I udvikler jeres projekt, skal I kombinere databaser med hjemmesideprogrammering.
 
-IT-løsningen skal indeholde
-* En html brugerflade hvor der er overvejt brugervenligheden, se teorien her [interaktionsdesign](https://github.com/mpsteenstrup/InformatikRysensteen/blob/main/dokumenter/Interaktionsdesign.MD).
-* Data skal organiseres i en simpel database, regneark, som kan importeres som csv fil med javascript.
-* Der skal redegøres for hvordan databasen kan normaliserese ved at gøre den til en relationel database. Redegør herunder for relatinsgraden. Det er ikke nødvendigt at lave selv relationsdatabasen.
+IT-løsningen skal indeholde:
+* En HTML-brugerflade, hvor der er tænkt over brugervenligheden. Se teorien her: [interaktionsdesign](https://github.com/mpsteenstrup/InformatikRysensteen/blob/main/dokumenter/Interaktionsdesign.MD).
+* Data skal organiseres i en simpel database (f.eks. et regneark), som kan importeres som en CSV-fil med JavaScript.
+* Der skal redegøres for, hvordan databasen kan normaliseres ved at gøre den til en relationel database. Redegør herunder for relationsgraden. Det er ikke nødvendigt at lave selve relationsdatabasen.
 
-## Tre-lags-arkitektur, (kilde [iftek](http://iftek.dk/leksikon:tre-lags-arkitektur))
-I en tre-lags-arkitektur indeles et program i tre lag, hvilket er er nyttigt i implementeringen af programmer, da de tre lag så vidt mulig holdes adskilte og dermed er hele programmet lettere at overskue.
+## Tre-lags-arkitektur (kilde: [iftek](http://iftek.dk/leksikon:tre-lags-arkitektur))
+I en tre-lags-arkitektur inddeles et program i tre lag. Dette er nyttigt i implementeringen af programmer, da de tre lag så vidt muligt holdes adskilte, hvilket gør hele programmet lettere at overskue.
 
-**Præsentationslag:** Det øverste lag der håndterer modtagelse og præsentation af data. Dette lag er kendetegnet ved at være ”tæt” på brugeren af programmet. Dette vil ofte være brugergrænsefladen.
+**Præsentationslag:** Det øverste lag, der håndterer modtagelse og præsentation af data. Dette lag er kendetegnet ved at være tæt på brugeren af programmet, ofte i form af en brugergrænseflade.
 
-**Logiklag:** Det midterste lag der håndterer udvekslingen af data mellem præsentationslaget og datalaget. Dette lag står for beregningerne.
+**Logiklag:** Det midterste lag, der håndterer udvekslingen af data mellem præsentationslaget og datalaget. Dette lag står for beregninger og forretningslogik.
 
-**Datalag:** Det nederste lag der opbevarer og håndterer data. Dette lag er også kendetegnet ved at være ”tæt” på computeren. Dette lag kan være struktureret som en database.
+**Datalag:** Det nederste lag, der opbevarer og håndterer data. Dette lag er kendetegnet ved at være tæt på computeren og kan være struktureret som en database.
 
-Vi vil arbejde med hvordan man organiserer data i databaser.
+Vi vil arbejde med, hvordan man organiserer data i databaser.
 
 ## Introduktion til databaser - Vestfynedu style
-I bruger den glimrende introduktion til databaser [LINK](https://sites.google.com/vestfynedu.dk/informatikdbg/konstruktion-af-it-systemer/databaser?authuser=0).
+I skal bruge den glimrende introduktion til databaser, som findes her: [LINK](https://sites.google.com/vestfynedu.dk/informatikdbg/konstruktion-af-it-systemer/databaser?authuser=0).
 
 ### Øvelse
-* Læs introduktionen og se videoen Introduktion til databaser. 
-* Forklar hvad Entiteter, Attributter, primærnøgle og fremmednøgle er. 
+* Læs introduktionen og se videoen "Introduktion til databaser".
+* Forklar, hvad entiteter, attributter, primærnøgle og fremmednøgle er.
 
 ## Normalisering
-Normalisering af en database, er en teknik som sikrer at rettelser i databasen, kan foretages med mindst muligt indflydelse på det oprindelige system. Målet er at minimere redundant data. Det vil sige at samme oplysning er gemt flere steder. Med normalisering bliver det lettere at foretage rettelser i databasen (så skal man kun rette det ét sted), [balslev](https://balslev.io/programmering/database/normalisering-af-databaser/).
+Normalisering af en database er en teknik, der sikrer, at rettelser i databasen kan foretages med mindst mulig indflydelse på det oprindelige system. Målet er at minimere redundant data, dvs. at samme oplysning ikke gemmes flere steder. Med normalisering bliver det lettere at foretage rettelser i databasen (så skal man kun rette det ét sted). Læs mere her: [balslev](https://balslev.io/programmering/database/normalisering-af-databaser/).
 
 Normaliseringsregler:
-
 * Unik primærnøgle.
 * Ingen kolonne må være afhængig af andre kolonner end primærnøglen.
 * Der må kun være én datatype i hver kolonne.
-* Det samme data skal kun forekomme et sted - det modsatte kaldes redundans.
+* Det samme data skal kun forekomme ét sted (undgå redundans).
 * Data skal være relateret til hinanden.
 
 ### Øvelse
-* Se videoen om normalisering af databaser, start 4 minutter inde [Video](https://youtu.be/22bRAGYB6Is?t=238).
+* Se videoen om normalisering af databaser, start 4 minutter inde: [Video](https://youtu.be/22bRAGYB6Is?t=238).
 * Normaliser nedenstående database.
 ![ikke_normaliseret](filer/ikke_normaliseret.png)
 
 ## E/R diagram
-Endnu en fin video, nu om E/R diagrammer, [E/R diagrammer](https://youtu.be/wIR-SXl86KY).
+Se denne video om E/R diagrammer: [E/R diagrammer](https://youtu.be/wIR-SXl86KY).
 
 ### Øvelse
-* se filmen.
-* Brug [draw.io](https://app.diagrams.net/) til at lave et E/R diagram over kunde/bil databasen.
+* Se filmen.
+* Brug [draw.io](https://app.diagrams.net/) til at lave et E/R diagram over kunde/bil-databasen.
 
 ## DB Browser
 Vi skal arbejde med et databaseprogram. Det vi bruger er DB Browser SQlite.
@@ -69,7 +72,8 @@ Vi skal arbejde med et databaseprogram. Det vi bruger er DB Browser SQlite.
 
 ## SQL kommandoer
 Hvis man arbejder med rigtigt store databaser er det ikke praktisk at bruge regnearksrepresentationen til at hente data ud. Den mest udbredte sprog til at arbejde med databaser er SQL, Structured Query Language. Vi bruger SQL fanen i BD Browser,
-![SQL](filer/SQL.ong)
+
+![SQL](filer/SQL.png)
 
 ### Øvelse
 * Prøv de nedenstående kommandoer

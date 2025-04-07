@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Ex 3</h2>
+
+<button type="button" onclick="nytx()"> vælg nyt x</button>
+<p id="demo"></p>
+<p id="liste"></p>
+
+</body>
+</html> 
+
+
+<script>
+    let v = []
+    function nytx(){
+        getx();
+        document.getElementById('demo').innerHTML = x;
+        document.getElementById('liste').innerHTML = v;
+
+    }
+    function getx(){
+        x = Math.floor(Math.random()*10+1);
+        if(v.includes(x)){
+            {getx()}
+        }
+        v.push(x)
+    }
+
+    </script>
+
+
+
