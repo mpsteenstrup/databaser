@@ -1,4 +1,4 @@
-# Databaser xx
+# Databaser
 Vi skal arbejde med databaser og implementere dem i en simpel version på en hjemmeside. 
 
 ## Indhold
