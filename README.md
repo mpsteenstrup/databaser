@@ -1,5 +1,5 @@
 * [Vis som webside.](https://mpsteenstrup.github.io/databaser/)
-* [Vis som github side.](https://github.com/mpsteenstrup/databaser/settings/pages)
+* [Vis som github side.](https://github.com/mpsteenstrup/databaser)
 
 # Databaser
 Vi skal arbejde med databaser og implementere dem i en simpel version på en hjemmeside. 
